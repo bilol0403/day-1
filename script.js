@@ -1,0 +1,14 @@
+let ticket = 500;
+let hostel = 250;
+let result = (ticket + hostel) * 10650.34;
+console.log('Price of ticket and hostel ' + result);
+// alert(result); 
+let place = 120;
+let travelPlace = place * 10650.03;
+console.log('Money for recreation area ' + travelPlace);
+// alert(travelPlace);
+let allExpenses = result + travelPlace;
+console.log('All expenses ' + allExpenses);
+// alert(allExpenses);
+let totalMoney = prompt("Hi, how much do you have");
+console.log( 'you have ' + totalMoney +'sum ' + 'and you need ' + allExpenses + 'sum money for traveling');
